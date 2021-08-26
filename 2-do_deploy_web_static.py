@@ -10,8 +10,7 @@ from fabric.api import env
 import re
 
 
-env.hosts = ['35.190.176.186', '35.196.156.157']
-
+env.hosts = ['34.138.120.9', '54.242.153.35']
 
 def do_pack():
     """Function to compress files in an archive"""
